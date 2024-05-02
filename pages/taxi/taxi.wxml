@@ -1,0 +1,11 @@
+<map id="taxiMap" style="width: 100%; height: 500px;" latitude="1.3521" longitude="103.8198" scale="12">
+  <marker wx:for="{{taxis}}" wx:key="id"
+          iconPath="/images/taxi.png"
+          id="{{index}}"
+          latitude="{{item[1]}}"
+          longitude="{{item[0]}}"
+          width="50"
+          height="50">
+  </marker>
+</map>
+<text>Hello world</text>

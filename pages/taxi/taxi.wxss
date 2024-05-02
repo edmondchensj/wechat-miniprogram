@@ -1,0 +1,8 @@
+/* pages/taxi/taxi.wxss */
+map {
+  z-index: 1;  // Ensure map has a reasonable z-index
+}
+
+marker {
+  z-index: 1000;  // Ensure markers are really high
+}

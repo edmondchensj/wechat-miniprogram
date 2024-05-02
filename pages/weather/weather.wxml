@@ -7,6 +7,7 @@
     <block wx:for="{{areas}}" wx:key="name">
       <view class="area">
         <text>{{item.name}}</text>
+        <text>{{item.name}}</text>
         <text>Lat: {{item.label_location.latitude}}, Long: {{item.label_location.longitude}}</text>
       </view>
     </block>

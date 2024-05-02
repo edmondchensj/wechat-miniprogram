@@ -1,0 +1,52 @@
+.container {
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+.current-uv {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.current-uv-label {
+  font-size: 18px;
+  color: #555;
+}
+
+.current-uv-value {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.history-label {
+  font-size: 12px;
+  color: grey;
+}
+
+.table-header {
+  display: flex;
+  background-color: #dedede;
+  padding: 5px;
+}
+
+.uv-history {
+  width: 100%;
+}
+.header-cell {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 3px;
+}
+
+.row-cell {
+  flex: 1;
+  text-align: center;
+  color: #666;
+}

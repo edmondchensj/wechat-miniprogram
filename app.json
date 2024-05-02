@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/uv/uv",
+    "pages/taxi/taxi",
     "pages/weather/weather",
     "pages/index/index",
     "pages/logs/logs"

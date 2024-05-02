@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="current-uv">
+    <text class="current-uv-label">Current UV Index</text>
+    <view class="">
+      <text class="current-uv-value"
+        style="color: {{uvCurrent.color}}">{{uvCurrent.value}}</text>
+    </view>
+    <view class="">
+      <text class="current-uv-time"
+        style="color: grey; font-size: 14px;">As of {{uvCurrent.timestamp}}</text>
+    </view>
+  </view>
+  <view class="uv-history">
+    <!-- <text class="history-label">Past few hours</text> -->
+    <view class="table-header">
+      <text class="header-cell">Time</text>
+      <text class="header-cell">UV Index</text>
+    </view>
+    <view class="table-row" wx:for="{{uvHistory}}" wx:key="timestamp">
+      <text class="row-cell">{{item.timestamp}}</text>
+      <text class="row-cell" style="color: {{item.color}};">{{item.value}}</text>
+    </view>
+  </view>
+</view>
