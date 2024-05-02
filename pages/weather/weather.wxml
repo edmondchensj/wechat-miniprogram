@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <image src="/images/cloud.png" class="header-image"></image>
+    <text>2-Hour Weather Forecast</text>
+  </view>
+  <scroll-view scroll-x="true" class="area-scroll-view">
+    <block wx:for="{{areas}}" wx:key="name">
+      <view class="area">
+        <text>{{item.name}}</text>
+        <text>Lat: {{item.label_location.latitude}}, Long: {{item.label_location.longitude}}</text>
+      </view>
+    </block>
+  </scroll-view>
+</view>
